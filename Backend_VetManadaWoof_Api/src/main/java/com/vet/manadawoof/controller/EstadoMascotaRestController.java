@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 // Controlador REST para gestión de estados de mascota
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://backend-veterinaria-0h3s.onrender.com")
 @RestController
 @RequestMapping("/api/estado-mascota")
 @RequiredArgsConstructor

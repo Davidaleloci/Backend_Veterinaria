@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/clientes")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://backend-veterinaria-0h3s.onrender.com")
 public class ClienteRestController {
     
     private final ClienteService service;

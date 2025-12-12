@@ -19,7 +19,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/atenciones-medicas")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://backend-veterinaria-0h3s.onrender.com")
 public class AtencionMedicaRestController {
     
     private final AtencionMedicaService service;

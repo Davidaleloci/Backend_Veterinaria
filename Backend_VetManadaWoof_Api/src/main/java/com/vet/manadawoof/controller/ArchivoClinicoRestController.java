@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/archivos-clinicos")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://backend-veterinaria-0h3s.onrender.com")
 public class ArchivoClinicoRestController {
     
     private final ArchivoClinicoService service;
