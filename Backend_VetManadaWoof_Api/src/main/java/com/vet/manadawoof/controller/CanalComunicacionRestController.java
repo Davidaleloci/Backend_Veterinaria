@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://backend-veterinaria-0h3s.onrender.com")
+@CrossOrigin(origins = "https://frontenveterinaria.netlify.app")
 @RestController
 @RequestMapping("/api/canales-comunicacion")
 @RequiredArgsConstructor

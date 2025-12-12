@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/archivos-clinicos")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://backend-veterinaria-0h3s.onrender.com")
+@CrossOrigin(origins = "https://frontenveterinaria.netlify.app")
 public class ArchivoClinicoRestController {
     
     private final ArchivoClinicoService service;
